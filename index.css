@@ -1,22 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 header{
     background: rgb(14, 33, 65);
-    border-radius:0px;
     padding: 15px;
-    width: 1380px;
+    width: 100vw;
     height: 125px;
     box-shadow: 4px 4px 10px rgba(8, 0, 7, 0.336);
-    text-align-left: 2px;
     position: relative;
-    top: -10px;
+    top: 0px;
     left: -10px;
 }
 section{
-    background: rgb(156, 1898, 73);
-    border-radius:0px;
-    width: 350px;
-    height: 700px;
+    background: rgb(156, 198, 73);
+    width: 100vw;
+    height: 710px;
     position: relative;
-    top: -12px;
+    top: -3px;
     left: -4px;
 }
 #txt2{
@@ -32,45 +34,58 @@ section{
 }
 
 .logo1{
-    text-align-right: center;
     border-top-right-radius: 20px;
-    margin-top: -10px;
+    margin-top: -22px;
     margin-left: -15px;
 }
 
 .wall{
     position: relative;
     max-width: 1058px;
-    right: -342px;
-    top: -728px;
+    right: -432px;
+    top: -675px;
     background-image: url("/Imgs/img1.jpg");
     color: rgb(255, 254, 253);
 }
 .info{
     position: relative;
     left: -30px;
-    top: 10px;
+    top: 0px;
     text-align: center;
 }
 .pague{
-    margin-top: -6px;
+    margin-top: -12px;
     text-align: center;
 }
 
 .rodape{
     background: rgb(14, 33, 65);
-    border-radius:0px;
     padding: 15px;
-    width: 1380px;
+    width: 100vw;
     position: relative;
-    top: -730px;
-    left:  -10px;
+    top: 0px;
+    left: -10px;
 }
 #txt1{
     color: rgb(156, 198, 73);
     font: Arial 18pt;
     max-height: 720px;
 }
+#txt3{
+    margin-top: -10px;
+}
 body{
     margin: auto;
+}
+.loja{
+    position: relative;
+    top: -1337px;
+    left: 1530px;
+}
+#fotos{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.pictures{
+    margin-left: 24px;
 }

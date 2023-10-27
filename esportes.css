@@ -2,10 +2,9 @@ header{
     background: rgb(14, 33, 65);
     border-radius:0px;
     padding: 15px;
-    width: 1380px;
+    width: 100vw;
     height: 125px;
     box-shadow: 4px 4px 10px rgba(8, 0, 7, 0.336);
-    text-align-left: 2px;
     margin-top: -10px;
     margin-left: -10px
 }
@@ -17,7 +16,6 @@ header{
 }
 
 .logo1{
-    text-align-right: center;
     border-top-right-radius: 20px;
     margin-top: -10px;
     margin-left: -15px;
@@ -26,7 +24,7 @@ header{
     background: rgb(14, 33, 65);
     border-radius:0px;
     padding: 15px;
-    width: 1380px;
+    width: 100vw;
     margin-top: 500px;
     margin-left: -10px;
     margin-bottom: -12px;
