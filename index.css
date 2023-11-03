@@ -11,15 +11,15 @@ header{
     box-shadow: 4px 4px 10px rgba(8, 0, 7, 0.336);
     position: relative;
     top: 0px;
-    left: -10px;
+    left: 0px;
 }
 section{
     background: rgb(156, 198, 73);
     width: 100vw;
-    height: 710px;
+    height: 875px;
     position: relative;
     top: -3px;
-    left: -4px;
+    left: 0px;
 }
 #txt2{
     margin-top: 2px;
@@ -42,8 +42,8 @@ section{
 .wall{
     position: relative;
     max-width: 1058px;
-    right: -432px;
-    top: -675px;
+    right: -480px;
+    top: -625px;
     background-image: url("/Imgs/img1.jpg");
     color: rgb(255, 254, 253);
 }
@@ -63,8 +63,8 @@ section{
     padding: 15px;
     width: 100vw;
     position: relative;
-    top: 0px;
-    left: -10px;
+    top: -3px;
+    left: 0px;
 }
 #txt1{
     color: rgb(156, 198, 73);
@@ -72,15 +72,21 @@ section{
     max-height: 720px;
 }
 #txt3{
-    margin-top: -10px;
+    margin-top: -20px;
 }
 body{
     margin: auto;
+    overflow-x: hidden;
 }
+/*header{
+    position: fixed;
+    z-index: 1;
+}
+*/
 .loja{
-    position: relative;
-    top: -1337px;
-    left: 1530px;
+    position: absolute;
+    top: 20px;
+    right: 60px;
 }
 #fotos{
     margin-left: 80px;
