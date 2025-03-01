@@ -1,37 +1,32 @@
-@media (min-width: 1920px) {
+@media (max-width: 1920px) and (max-height: 1080px) {
     *{
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        width: 100%;
-        height: 100%;
     }
 }
 header{
     background: rgb(14, 33, 65);
     padding: 15px;
-    width: 100vw;
     height: 125px;
     box-shadow: 4px 4px 10px rgba(8, 0, 7, 0.336);
-    position: relative;
     top: 0px;
     left: 0px;
 }
 section{
     background: rgb(156, 198, 73);
-    width: 100vw;
-    height: 875px;
-    position: relative;
-    top: -3px;
-    left: 0px;
+    height: 100vh;
 }
+header, section, .rodape {
+    width: 100%;
+}
+
 #txt2{
     margin-top: 2px;
     margin-left: 6px;
 }
 .title{
     text-align: center;
-    margin-top: -100px;
     color:rgb(156, 198, 73);
     font: helvetica;
     font-size: 26pt;
@@ -43,29 +38,24 @@ section{
     margin-left: -15px;
 }
 
-.wall{
-    position: relative;
-    max-width: 1058px;
-    right: -480px;
-    top: -625px;
-    background-image: url("/Imgs/img1.jpg");
-    color: rgb(255, 254, 253);
+.wall {
+    max-width: 80%; /* Ajusta melhor para diferentes telas */
+    margin: 0 auto; /* Centraliza */
+    top: -10vh; /* Ajuste dinâmico */
 }
+
 .info{
-    position: relative;
-    left: -30px;
     top: 0px;
     text-align: center;
 }
 .pague{
-    margin-top: -12px;
+    /* margin-top: -12px; */
     text-align: center;
 }
 
 .rodape{
     background: rgb(14, 33, 65);
     padding: 15px;
-    width: 100vw;
     position: relative;
     top: -3px;
     left: 0px;
@@ -78,17 +68,24 @@ section{
 #txt3{
     margin-top: -20px;
 }
-body{
-    margin: auto;
+body {
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui os elementos corretamente */
+    align-items: stretch; /* Faz os elementos ocuparem toda a largura */
 }
+
 /*header{
     position: fixed;
     z-index: 1;
-}
-*/
+}*/
+
 .loja{
-    position: absolute;
     top: 20px;
     right: 60px;
 }
