@@ -27,7 +27,8 @@ header, section, .rodape {
 }
 .title{
     text-align: center;
-    color:rgb(156, 198, 73);
+    color:rgb(230, 237, 233);
+    padding: 20px;
     font: helvetica;
     font-size: 26pt;
 }
